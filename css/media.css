@@ -1,0 +1,227 @@
+@media (max-width: 950px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4vw;
+    width: 100%;
+    align-items: center;
+    height: 75px;
+    background: #00000063;
+    height: 50px;
+    z-index: 100000;
+    position: fixed;
+    box-shadow: 0 20px 80px #000000;
+  }
+
+  .nav .logo img {
+
+    height: 80px;
+
+
+  }
+
+
+
+  .nav .item li {
+    padding-left: 10px;
+  }
+
+  .nav .item li a {
+    font-size: 10px;
+    font-weight: 600;
+    color: wheat;
+  }
+
+  #home .mbtn {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80vh;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+  #home .mbtn .btn {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border-radius: 50px;
+    background: white;
+    align-items: center;
+    margin-left: 20px;
+    transition: 0.4s;
+  }
+
+  #home .mbtn .btn:hover {
+    width: 160px;
+  }
+
+  #home .mbtn .btn:hover span {
+    opacity: 1;
+  }
+
+  #home .mbtn .btn a {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    line-height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+  }
+
+  #home .mbtn .btn a i {
+    font-size: 30px;
+    line-height: 60px;
+    color: black;
+    margin: 5px;
+  }
+
+  #home .mbtn .btn span {
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-left: 2px;
+    opacity: 0;
+    color: black;
+
+  }
+
+
+
+
+
+
+  #team {
+    display: flexbox;
+
+    transform: scale(0.8);
+
+  }
+
+  #team .names {
+    font-size: 30px;
+    margin: 175rem 0 0 0;
+  }
+
+  #team .box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #team .box .card {
+    margin: 50px 0;
+  }
+
+  #shop {
+    margin-top: 135rem;
+  }
+
+  #shop .shop-name {
+    margin: -33rem 0 0 0;
+    font-size: 27px;
+  }
+
+  #shop .mbox {
+    margin: 165rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.6)
+  }
+
+  #shop .s-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #shop .s-card {
+    margin: 25px 0;
+  }
+  .s-card .help h3{
+    margin: 50px 35% 30px;
+  }
+
+  #about {
+    margin-top: 155rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+
+  #about ul {
+    margin-bottom: 35rem;
+  }
+
+  #about ul .um {
+    font-size: 30px;
+  }
+
+  #about ul .un {
+    font-size: 20px;
+  }
+
+  #about .base .nm {
+    margin-top: 105rem;
+  }
+
+  #about .base {
+    transform: scale(0.6);
+  }
+
+  #about .partner {
+    transform: scale(0.6);
+  }
+
+  #about .partner .n {
+    margin-top: 233rem;
+    text-align: center;
+  }
+
+  #about .partner li {
+    text-align: center;
+  }
+
+  #about .boxx {
+    margin-top: 60rem;
+    transform: scale(.8);
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about .boxx .card {
+    margin: 25px 0;
+  }
+
+  #about .boxx .card:hover .img {
+    transform: scale(0.39, 0.29) translateY(-750px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+  }
+
+  #about .footer {
+    margin-top: 190rem;
+  }
+
+  #about .footer .x {
+    margin-top: 30px;
+    height: 20px;
+    font-size: 15px;
+
+  }
+
+  .footer .c {
+    font-size: 10px;
+    background: black;
+  }
+
+}
